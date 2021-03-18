@@ -3,38 +3,312 @@
     {
       "username": "surya",
       "password": "theja",
-      "name": "swd",
-      "cityname": "surya",
-      "email": "fsdf",
+      "name": "suryatheja",
       "image": "C:\\fakepath\\BlogControllerIntegrationTest.PNG",
-      "id": 1
+      "id": 1,
+      "cityname": "hyderabad",
+      "email": "suryathejareddy@gmail.com",
+      "favourites": [
+        {
+          "HotelName": "",
+          "FoodName": "",
+          "Cost": ""
+        },
+        {
+          "HotelName": "Mekong",
+          "FoodName": "Idli",
+          "Cost": "60"
+        },
+        {
+          "HotelName": "Bawarchi",
+          "FoodName": "Sambar",
+          "Cost": "45"
+        },
+        {
+          "HotelName": "",
+          "FoodName": "",
+          "Cost": ""
+        },
+        {
+          "HotelName": "Time Traveller",
+          "FoodName": "Dal",
+          "Cost": "50"
+        },
+        {
+          "HotelName": "Lush",
+          "FoodName": "Dosas",
+          "Cost": "60"
+        },
+        {
+          "HotelName": "Truffles",
+          "FoodName": "Bondas",
+          "Cost": "70"
+        },
+        {
+          "HotelName": "",
+          "FoodName": "",
+          "Cost": ""
+        },
+        {
+          "HotelName": "Time Traveller",
+          "FoodName": "Dal",
+          "Cost": "50"
+        },
+        {
+          "HotelName": "",
+          "FoodName": "",
+          "Cost": ""
+        },
+        {
+          "HotelName": "Mekong",
+          "FoodName": "Idli",
+          "Cost": "60"
+        }
+      ]
     },
     {
       "username": "ravi",
       "password": "theja",
-      "name": "reddy",
-      "cityname": "hyd",
-      "email": "ravi@gmail.com",
-      "image": "C:\\fakepath\\BlogControllerTest.PNG",
-      "id": 2
-    },
-    {
-      "username": "surya",
-      "password": "theja",
-      "name": "fhgvh",
-      "cityname": "gcbvc",
-      "email": "sfh",
+      "name": "ravitheja",
       "image": "C:\\fakepath\\BlogRepositoryIntegrationTest.PNG",
-      "id": 3
+      "id": 2,
+      "cityname": "bangalore",
+      "email": "ravithejareddy",
+      "favourites": [
+        {
+          "HotelName": "Mekong",
+          "FoodName": "Idli",
+          "Cost": "60"
+        },
+        {
+          "HotelName": "Bikanerwala",
+          "FoodName": "Onion Dosa",
+          "Cost": "60"
+        },
+        {
+          "HotelName": "Cafe Bahar and Restaurant",
+          "FoodName": "Masala Dosa",
+          "Cost": "65"
+        },
+        {
+          "HotelName": "Tuscana Pizzeria",
+          "FoodName": "Ghee karam dosa",
+          "Cost": "80"
+        },
+        {
+          "HotelName": "Sweet Magic",
+          "FoodName": "Bondas",
+          "Cost": "45"
+        },
+        {
+          "HotelName": "CrossRoads Restaurant",
+          "FoodName": "Veg onion Burger",
+          "Cost": "90"
+        }
+      ]
     },
     {
-      "username": "aditya",
+      "username": "abcd",
       "password": "abcd",
-      "name": "adityaraven",
-      "cityname": "bangalore",
-      "email": "aditya@gmail.com",
-      "image": "C:\\fakepath\\BlogServiceTest.PNG",
-      "id": 4
+      "name": "sada",
+      "id": 3,
+      "cityname": "wkj",
+      "email": "kl",
+      "favourites": [
+        {
+          "HotelName": "Time Traveller",
+          "FoodName": "Dal",
+          "Cost": "50"
+        },
+        {
+          "HotelName": "The Fatty bao",
+          "FoodName": "Rice",
+          "Cost": "40"
+        },
+        {
+          "HotelName": "Mekong",
+          "FoodName": "Idli",
+          "Cost": "60"
+        },
+        {
+          "HotelName": "Mekong",
+          "FoodName": "Idli",
+          "Cost": "60"
+        },
+        {
+          "HotelName": "Mekong",
+          "FoodName": "Idli",
+          "Cost": "60"
+        },
+        {
+          "HotelName": "Mekong",
+          "FoodName": "Idli",
+          "Cost": "60"
+        },
+        {
+          "HotelName": "Chutneys",
+          "FoodName": "Onion Masala Dosa",
+          "Cost": "78"
+        },
+        {
+          "HotelName": "Mekong",
+          "FoodName": "Idli",
+          "Cost": "60"
+        },
+        {
+          "HotelName": "Mekong",
+          "FoodName": "Idli",
+          "Cost": "60"
+        },
+        {
+          "HotelName": "Bawarchi",
+          "FoodName": "Sambar",
+          "Cost": "45"
+        },
+        {
+          "HotelName": "Bikanerwala",
+          "FoodName": "Onion Dosa",
+          "Cost": "60"
+        },
+        {
+          "HotelName": "Mekong",
+          "FoodName": "Idli",
+          "Cost": "60"
+        },
+        {
+          "HotelName": "Chutneys",
+          "FoodName": "Onion Masala Dosa",
+          "Cost": "78"
+        }
+      ]
+    }
+  ],
+  "bangalore": [
+    {
+      "id": 1,
+      "NameOfRestaurant": "Time Traveller",
+      "FoodItem": "Dal",
+      "Cost": "50"
+    },
+    {
+      "id": 2,
+      "NameOfRestaurant": "Lush",
+      "FoodItem": "Dosas",
+      "Cost": "60"
+    },
+    {
+      "id": 3,
+      "NameOfRestaurant": "Truffles",
+      "FoodItem": "Bondas",
+      "Cost": "70"
+    },
+    {
+      "id": 4,
+      "NameOfRestaurant": "The Fatty bao",
+      "FoodItem": "Rice",
+      "Cost": "40"
+    },
+    {
+      "id": 5,
+      "NameOfRestaurant": "Nagarjuna",
+      "FoodItem": "Butter",
+      "Cost": "35"
+    }
+  ],
+  "hyderabad": [
+    {
+      "id": 1,
+      "NameOfRestaurant": "Mekong",
+      "FoodItem": "Idli",
+      "Cost": "60"
+    },
+    {
+      "id": 2,
+      "NameOfRestaurant": "Bawarchi",
+      "FoodItem": "Sambar",
+      "Cost": "45"
+    },
+    {
+      "id": 3,
+      "NameOfRestaurant": "Cafe Bahar and Restaurant",
+      "FoodItem": "Masala Dosa",
+      "Cost": "65"
+    },
+    {
+      "id": 4,
+      "NameOfRestaurant": "Chutneys",
+      "FoodItem": "Onion Masala Dosa",
+      "Cost": "78"
+    },
+    {
+      "id": 5,
+      "NameOfRestaurant": "Bikanerwala",
+      "FoodItem": "Onion Dosa",
+      "Cost": "60"
+    }
+  ],
+  "vijayawada": [
+    {
+      "id": 1,
+      "NameOfRestaurant": "Sweet Magic",
+      "FoodItem": "Bondas",
+      "Cost": "45"
+    },
+    {
+      "id": 2,
+      "NameOfRestaurant": "Minerva Grand Restaurant",
+      "FoodItem": "Mysore Bajji",
+      "Cost": "50"
+    },
+    {
+      "id": 3,
+      "NameOfRestaurant": "McDonalds",
+      "FoodItem": "Veg Burger",
+      "Cost": "80"
+    },
+    {
+      "id": 4,
+      "NameOfRestaurant": "CrossRoads Restaurant",
+      "FoodItem": "Veg onion Burger",
+      "Cost": "90"
+    },
+    {
+      "id": 5,
+      "NameOfRestaurant": "Southern Spice",
+      "FoodItem": "Non veg Burger",
+      "Cost": "100"
+    }
+  ],
+  "chennai": [
+    {
+      "id": 1,
+      "NameOfRestaurant": "Benjarang",
+      "FoodItem": "Rice and Dal",
+      "Cost": "100"
+    },
+    {
+      "id": 2,
+      "NameOfRestaurant": "Sangeetha Veg Restaurant",
+      "FoodItem": "Rice and curd",
+      "Cost": "120"
+    },
+    {
+      "id": 3,
+      "NameOfRestaurant": "Murugans Idli Shop",
+      "FoodItem": "Idli karam ghee",
+      "Cost": "70"
+    },
+    {
+      "id": 4,
+      "NameOfRestaurant": "Tuscana Pizzeria",
+      "FoodItem": "Ghee karam dosa",
+      "Cost": "80"
+    },
+    {
+      "id": 5,
+      "NameOfRestaurant": "Sarvana Bhavan",
+      "FoodItem": "Non veg Burger",
+      "Cost": "100"
     }
   ]
 }

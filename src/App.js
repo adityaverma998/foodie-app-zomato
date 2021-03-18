@@ -10,6 +10,7 @@ import Register from './components/Register';
 import Login from './components/Login';
 import Home from './components/Home';
 import Dashboard from './components/Dashboard'
+import ErrorLogin from './components/ErrorLogin';
 
 
 function App() {
@@ -22,6 +23,9 @@ function App() {
         <Route path = "/login" component = {Login}/>
         <Route path = "/register" component = {Register}/>
         <Route path = "/dashboard/:username" component = {Dashboard}/>
+        <Route path = "/errorLogin" component = {ErrorLogin}/>
+        
+        
       </Switch>
     </div>
     </Router>

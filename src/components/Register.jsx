@@ -10,14 +10,15 @@ export default function Register() {
     const [cityname,setCityName] = useState('');
     const [email,setEmail] = useState('');
     const [image,setImage] = useState();
-
+    const [favourites,setFavourites] = useState([]);
     
 
     const RegisterSubmit = () => {
-        const registerData = {username,password,name,cityname,email,image};
+        const registerData = {username,password,name,cityname,email,image,favourites};
         axios.post('http://localhost:3100/users',registerData,{
             headers: {'Content-Type':'application/json'}
         })
+        
         history.push('/login')
     }
     

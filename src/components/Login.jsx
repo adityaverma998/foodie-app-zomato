@@ -9,21 +9,27 @@ export default function Login(){
     const history = useHistory();
     const [username,setUserName]=useState('');
     const [password,setPassword]=useState('');
-
+    let check = 0;
     const LoginSubmit = () => {
         //const registerData = {username,password,name,cityname,email,image};
         axios.
         get('http://localhost:3100/users')
         .then((response) => {
             // response.data
+            console.log('login page')
+            console.log(response.data)
+            console.log(username)
+            console.log(password)
             for(let i=0;i<response.data.length;i++)
             {
                 if(response.data[i].username == username)
                 {
                     if(response.data[i].password == password)
                     {
+                        check = check + 1;
                         console.log("heyal")
                         history.push(`/dashboard/${response.data[i].username}`)
+                        break;
                     }
                     else
                     {
@@ -31,6 +37,8 @@ export default function Login(){
                         
                         console.log("wrong")
                         history.push("/login")
+                        break;
+
                     }
                 }
                 else
@@ -38,9 +46,19 @@ export default function Login(){
                     continue;
                 }
             }
-            return (<div>
-                Un registered User
-            </div>)
+            if(check == 0)
+            {
+                alert("Not a registered User")
+            history.push("/register");
+            }
+            
+            
+            // alert("Unregistered User ,Therefore Register First")
+            // history.push("/register")
+            // return (<div>
+            //     Un registered User
+            // </div>)
+
         })
         .catch((error) => {
             console.log("error searching data base for users")
