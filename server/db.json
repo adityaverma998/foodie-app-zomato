@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "username": "surya",
+      "password": "theja",
+      "name": "swd",
+      "cityname": "surya",
+      "email": "fsdf",
+      "image": "C:\\fakepath\\BlogControllerIntegrationTest.PNG",
+      "id": 1
+    },
+    {
+      "username": "ravi",
+      "password": "theja",
+      "name": "reddy",
+      "cityname": "hyd",
+      "email": "ravi@gmail.com",
+      "image": "C:\\fakepath\\BlogControllerTest.PNG",
+      "id": 2
+    },
+    {
+      "username": "surya",
+      "password": "theja",
+      "name": "fhgvh",
+      "cityname": "gcbvc",
+      "email": "sfh",
+      "image": "C:\\fakepath\\BlogRepositoryIntegrationTest.PNG",
+      "id": 3
+    },
+    {
+      "username": "aditya",
+      "password": "abcd",
+      "name": "adityaraven",
+      "cityname": "bangalore",
+      "email": "aditya@gmail.com",
+      "image": "C:\\fakepath\\BlogServiceTest.PNG",
+      "id": 4
+    }
+  ]
+}
