@@ -11,13 +11,14 @@ import Login from './components/Login';
 import Home from './components/Home';
 import Dashboard from './components/Dashboard'
 import ErrorLogin from './components/ErrorLogin';
-
+import Header from "./components/Header";
+import Footer from './components/Footer';
 
 function App() {
   return (
     <Router>
-      <div>
       
+      <Header/>
       <Switch>
         <Route exact path = "/" component = {Home}/>
         <Route path = "/login" component = {Login}/>
@@ -27,7 +28,8 @@ function App() {
         
         
       </Switch>
-    </div>
+      <Footer/>
+   
     </Router>
   );
 }

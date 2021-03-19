@@ -13,6 +13,7 @@ export default function FavouritesCard(props){
             <p>{props.NameOfRestaurant}</p>
             <p>{props.FoodItem}</p>
             <p>{props.Cost}</p>
+            <p>{props.image}</p>
         </div>
     )
 

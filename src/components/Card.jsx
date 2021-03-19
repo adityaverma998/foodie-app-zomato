@@ -2,6 +2,10 @@ import axios from 'axios';
 import React , { useState,useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 
+
+
+
+
 export default function Card(props){
     const [UserData,setUserData] = useState();
     const [UserID,setUserID] = useState(0);
@@ -9,12 +13,12 @@ export default function Card(props){
     const [FoodName,setFoodName] = useState('');
     const [Cost,setCost] = useState('');
     const [check,setCheck] = useState(0);
-
+    const [image,setImage] = useState('')
 
     const favouriteobject = {
         HotelName,
         FoodName,
-        Cost
+        Cost,image
     }
 
     useEffect ( () => {
@@ -36,7 +40,7 @@ export default function Card(props){
         setHotelName(props.NameOfRestaurant);
         setFoodName(props.FoodItem);
         setCost(props.Cost)
-        
+        setImage(props.image)
         // getting user data;
         
         console.log("in add to favourites")
@@ -71,15 +75,19 @@ export default function Card(props){
 
     }
     return (
-        <div>
+        <div className="card my-5"  style={{width : '17rem'}}>
+             <div className="card">
             <p>{props.NameOfRestaurant}</p>
             <p>{props.FoodItem}</p>
             <p>{props.Cost}</p>
+            <p>{props.image}</p>
             <div>
                 <button type="submit" className="btn btn-primary"
                 onClick={addToFavourites}
                 >Add To Favourites Section</button>
             </div>
+        </div>
+        <div ><br/></div>
         </div>
     )
 

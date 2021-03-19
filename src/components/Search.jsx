@@ -23,14 +23,15 @@ export default function Search(props){
 
     }
     return (
-        <div>
-            <div className="mb-3">
+        <div >
+            <div className="mb-8">
                             <input type="text" placeholder="Enter Location" className="form-control"
                             onChange={(e)=>{setLocation(e.target.value)}}
                             />
             </div>
-            <div>
-                        <button type="submit" className="btn btn-primary"
+            <br/>
+            <div className="bcenter">
+                        <button type="submit"  className="btn btn-primary"
                         onClick={SearchSubmit}
                         >Search</button>
             </div>  

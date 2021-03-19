@@ -181,6 +181,109 @@
           "Cost": "78"
         }
       ]
+    },
+    {
+      "username": "adi",
+      "password": "123",
+      "name": "Aditya Raven",
+      "image": "C:\\fakepath\\Screenshot (12).png",
+      "id": 4,
+      "cityname": "HAZARIBAGH",
+      "email": "adityaraven@gmail.com",
+      "favourites": [
+        {
+          "HotelName": "Mekong",
+          "FoodName": "Idli",
+          "Cost": "60"
+        },
+        {
+          "HotelName": "Bikanerwala",
+          "FoodName": "Onion Dosa",
+          "Cost": "60"
+        },
+        {
+          "HotelName": "Bikanerwala",
+          "FoodName": "Onion Dosa",
+          "Cost": "60"
+        },
+        {
+          "HotelName": "Bikanerwala",
+          "FoodName": "Onion Dosa",
+          "Cost": "60"
+        },
+        {
+          "HotelName": "Nagarjuna",
+          "FoodName": "Butter",
+          "Cost": "35"
+        },
+        {
+          "HotelName": "Truffles",
+          "FoodName": "Bondas",
+          "Cost": "70"
+        },
+        {
+          "HotelName": "Chutneys",
+          "FoodName": "Onion Masala Dosa",
+          "Cost": "78"
+        },
+        {
+          "HotelName": "Chutneys",
+          "FoodName": "Onion Masala Dosa",
+          "Cost": "78"
+        },
+        {
+          "HotelName": "Chutneys",
+          "FoodName": "Onion Masala Dosa",
+          "Cost": "78",
+          "image": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
+        },
+        {
+          "HotelName": "The Fatty bao",
+          "FoodName": "Rice",
+          "Cost": "40"
+        },
+        {
+          "HotelName": "Chutneys",
+          "FoodName": "Onion Masala Dosa",
+          "Cost": "78"
+        },
+        {
+          "HotelName": "Mekong",
+          "FoodName": "Idli",
+          "Cost": "60"
+        }
+      ]
+    },
+    {
+      "username": "himan",
+      "password": "123",
+      "name": "himan",
+      "image": "C:\\fakepath\\Screenshot (9).png",
+      "id": 5,
+      "cityname": "assam",
+      "email": "himan@gmail.com",
+      "favourites": [
+        {
+          "HotelName": "Bawarchi",
+          "FoodName": "Sambar",
+          "Cost": "45"
+        },
+        {
+          "HotelName": "Cafe Bahar and Restaurant",
+          "FoodName": "Masala Dosa",
+          "Cost": "65"
+        },
+        {
+          "HotelName": "Bikanerwala",
+          "FoodName": "Onion Dosa",
+          "Cost": "60"
+        },
+        {
+          "HotelName": "Lush",
+          "FoodName": "Dosas",
+          "Cost": "60"
+        }
+      ]
     }
   ],
   "bangalore": [
@@ -194,7 +297,8 @@
       "id": 2,
       "NameOfRestaurant": "Lush",
       "FoodItem": "Dosas",
-      "Cost": "60"
+      "Cost": "60",
+      "image": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
     },
     {
       "id": 3,

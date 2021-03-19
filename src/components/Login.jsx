@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import axios from 'axios'
 import { useHistory } from "react-router-dom";
-
+import {BrowserRouter as Router,Link} from "react-router-dom";
 
 
 
@@ -83,17 +83,16 @@ export default function Login(){
                             />
                         </div>
                         </div>
-                        {/* <p>Not a User ? Then enter username and password above and click on Register first</p> */}
+                        
                         <div>
                         <button type="submit" className="btn btn-primary"
                         onClick={LoginSubmit}
                         >Login</button>
+                        <Link to="/register" className="nav-link" >Register </Link>
                         </div>                         
                 </div>
             </div>
-             {/* <div className="col-md-6 mt-4">
-                    <AddContact addContact={saveContact}/>
-            </div> */}
+            
         </div>
            
     </div>

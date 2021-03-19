@@ -15,23 +15,23 @@ export default function Home(){
     }
 
     return (
-        <div>
-            <h1>
+        <div><br/>
+        <br/>
+            <h1 align="center">
             If you are a new User click on Register
         </h1>
-        <div>
+        <div align="center">
         
-        <button type="submit" className="btn btn-primary"
-                        ><Link to = "/register">Register
-                        </Link></button>
+        <Link to = "/register">Register
+                        </Link>
         </div>
-        <h1>
+        <br/><br/>
+        <h1 align="center">
             If you are registered user click on Login
         </h1>
-        <div>
+        <div align="center">
         
-        <button type="submit" className="btn btn-primary"
-                        ><Link to = "/login">Login</Link></button>
+        <Link to = "/login">Login</Link>
         </div>
         </div>
     )

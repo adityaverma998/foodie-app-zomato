@@ -4,12 +4,14 @@ import axios from 'axios'
 import Card from './Card';
 import FavouritesCard from './FavouritesCard';
 
+import background from '../img/food.jpg';
+
 export default function Dashboard(props){
     const [username,setUsername] = useState(props.match.params.username)
     const [locationdash,setLocationDash]=useState('');
     const [hotelData,setHotelData] = useState([]);
     const [userid,setUserid] = useState(0);
-
+    
     const [password,setPassword] = useState('');
     const [name,setName] = useState('');
     const [image,setImage] = useState('');
@@ -109,13 +111,17 @@ export default function Dashboard(props){
 
     return (
 
-        <div>
+        <div style={{ 
+            backgroundImage: `url(${background})` 
+          }}>
             <Search username = {username} locationchildfunc = {getLocation}
             hoteldatachildfunc = {getHoteldata}/>
-            <div>
+            <div className = 'container'>
+            <div className="row">
                 {
                     hotelData.map((hotel) => 
                     <Card
+                    image={image}
                     username = {username}
                     getFavouriteschildfunc = {getFavourites}
                     key = {hotel.id}
@@ -125,7 +131,7 @@ export default function Dashboard(props){
                     />)
                 } 
             </div>
-            <div>
+            <div className = "cl-md-6 mt-4">
                 {
                     favourites.map((favourite) => 
                         <FavouritesCard
@@ -136,7 +142,8 @@ export default function Dashboard(props){
                         />)
                 }
             </div>  
-            <h1>{props.match.params.username}</h1>
+            </div>
+            <h1  align="center"><font color="white">Hello {props.match.params.username} Welcome</font></h1>
         </div>
     )
 }
