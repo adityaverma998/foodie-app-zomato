@@ -26,7 +26,7 @@ export default function Card(props){
         
         if(UserID == 0)
         {
-            console.log("nothign")
+            console.log("nothing")
         }
         else
         {

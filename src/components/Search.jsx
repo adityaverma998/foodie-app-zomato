@@ -24,14 +24,15 @@ export default function Search(props){
     }
     return (
         <div >
-            <div className="mb-8">
-                            <input type="text" placeholder="Enter Location" className="form-control"
+            <div className="mb-6">
+                            <input type="search" className="form-control rounded" placeholder="Search for your Favourite Restaurant" aria-label="Search"
+    
                             onChange={(e)=>{setLocation(e.target.value)}}
                             />
             </div>
             <br/>
             <div className="bcenter">
-                        <button type="submit"  className="btn btn-primary"
+                        <button type="submit"  className="btn-ge-started"
                         onClick={SearchSubmit}
                         >Search</button>
             </div>  

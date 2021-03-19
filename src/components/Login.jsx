@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import axios from 'axios'
 import { useHistory } from "react-router-dom";
 import {BrowserRouter as Router,Link} from "react-router-dom";
-
+import web from "../img/home.jpeg";
 
 
 export default function Login(){
@@ -36,8 +36,7 @@ export default function Login(){
                         alert("Wrong password login again")
                         
                         console.log("wrong")
-                        history.push("/login")
-                        break;
+                        check=check+1;
 
                     }
                 }
@@ -66,12 +65,18 @@ export default function Login(){
     }
 
     return (
-        <div>
+        <div><br/>
+        <br/>
         <div className="container mt-4">
-            <h2>Login</h2>
+            
+            
             <div className="row mt -3">
+            <div className="header-img">
+                                <img src={web}  className="img-fluid animated"/>
+                            </div> 
                 <div className="col-md-4">
                     <div className="form-group">
+                    <h2>Login</h2>
                         <div className="mb-3">
                             <input type="text" placeholder="Enter your username" className="form-control"
                             onChange={(e)=>{setUserName(e.target.value)}}
@@ -82,15 +87,20 @@ export default function Login(){
                             onChange={(e)=>{setPassword(e.target.value)}}
                             />
                         </div>
+                        
                         </div>
                         
                         <div>
-                        <button type="submit" className="btn btn-primary"
+                        <button type="submit" className="btn-ge-started"
                         onClick={LoginSubmit}
                         >Login</button>
-                        <Link to="/register" className="nav-link" >Register </Link>
-                        </div>                         
+                        <br/>
+                        <br/>
+                        <Link to="/register" className="btn-ge-started" >Register </Link>
+                        </div> 
+                                  
                 </div>
+                
             </div>
             
         </div>

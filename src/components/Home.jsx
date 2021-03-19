@@ -26,11 +26,11 @@ export default function Home(){
                                    Welcome to <strong className="brand-name">FOODIE </strong> 
                                 </h1>
                                 
-                                <Link to = "/login" className="btn-get-started">Signin</Link>
+                                <Link to = "/login" className="btn-get-started">Login</Link>
                                 
                                 <br/>
                                 <br/>
-                                <Link to = "/register" className="btn-get-started">SignUP</Link>
+                                <Link to = "/register" className="btn-get-started">Register</Link>
 
                                  </div>
                                  

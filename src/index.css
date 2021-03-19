@@ -62,16 +62,37 @@ code {
   padding: 10px 30px;
   border-radius: 50px;
   transition: 0.5s;
-  color: #3498db;
+  color:whitesmoke;
   border: 2px solid;
   text-decoration: none;
   width: 120px;
+  background-color: #8a1010;
 }
 
 #header .btn-get-started:hover{
-  background-color: #3498db;
-  color:#fff;
+  background-color: #630c0c;
+  color:whitesmoke;
 }
+
+.btn-ge-started{
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color:whitesmoke;
+  border: 2px solid;
+  text-decoration: none;
+  width: 120px;
+  background-color: #8a1010;
+}
+.btn-ge-started:hover{
+  background-color: #630c0c;
+  color:whitesmoke;
+}
+
 
 .header-img{
   
@@ -84,3 +105,24 @@ code {
   /* margin-bottom: 100px; */
 
 }
+
+.sidenav {
+  height: 100%;
+  width: 260px;
+  position: absolute;
+  z-index: 1;
+  top: 12em;
+  right: 0.4em;
+  
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.card-img-top{
+  height: 200px;
+  width: 400px;
+}
+/* 
+input.form-control{
+  background-color: rgb(241, 233, 231);
+} */

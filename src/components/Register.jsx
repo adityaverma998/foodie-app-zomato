@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import axios from 'axios'
 import { useHistory } from "react-router-dom";
+import web from "../img/home.jpeg";
 
 export default function Register() {
     const history = useHistory();
@@ -25,9 +26,13 @@ export default function Register() {
     return (
         <div>
             <div className="container mt-4">
-                <h2>Register</h2>
+                
                 <div className="row mt -3">
+                <div className="header-img">
+                                <img src={web}  className="img-fluid animated"/>
+                            </div> 
                     <div className="col-md-4">
+                    <h2>Register</h2>
                         <div className="form-group">
                             <div className="mb-3">
                                 <input type="text" placeholder="Enter your username" className="form-control"
@@ -62,7 +67,7 @@ export default function Register() {
                             </div>
                             {/* <p>Not a User ? Then enter username and password above and click on Register first</p> */}
                             <div>
-                            <button type="submit" className="btn btn-primary"
+                            <button type="submit" className="btn-ge-started"
                             onClick={RegisterSubmit}
                             >Register</button>
                             </div>                         

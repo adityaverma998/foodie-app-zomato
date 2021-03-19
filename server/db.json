@@ -37,7 +37,26 @@
       "id": 4,
       "cityname": "HAZARIBAGH",
       "email": "adityaraven@gmail.com",
-      "favourites": []
+      "favourites": [
+        {
+          "HotelName": "Truffles",
+          "FoodName": "Bondas",
+          "Cost": "70",
+          "FoodImage": "https://www.vegrecipesofindia.com/wp-content/uploads/2013/07/mysore-bonda-recipe-1.jpg"
+        },
+        {
+          "HotelName": "Sangeetha Veg Restaurant",
+          "FoodName": "Rice and curd",
+          "Cost": "120",
+          "FoodImage": "https://www.vegrecipesofindia.com/wp-content/uploads/2016/07/curd-rice-2.jpg"
+        },
+        {
+          "HotelName": "Mekong",
+          "FoodName": "Idli",
+          "Cost": "60",
+          "FoodImage": "https://www.vegrecipesofindia.com/wp-content/uploads/2013/03/idli-with-idli-rava-recipe-5.jpg"
+        }
+      ]
     },
     {
       "username": "himan",
@@ -49,88 +68,16 @@
       "email": "himan@gmail.com",
       "favourites": [
         {
-          "HotelName": "Time Traveller",
-          "FoodName": "Dal",
-          "Cost": "50",
-          "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
-        },
-        {
-          "HotelName": "Time Traveller",
-          "FoodName": "Dal",
-          "Cost": "50",
-          "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
-        },
-        {
-          "HotelName": "Time Traveller",
-          "FoodName": "Dal",
-          "Cost": "50",
-          "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
-        },
-        {
-          "HotelName": "Lush",
-          "FoodName": "Dosas",
-          "Cost": "60",
-          "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
-        },
-        {
-          "HotelName": "Truffles",
-          "FoodName": "Bondas",
-          "Cost": "70",
-          "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
-        },
-        {
-          "HotelName": "Time Traveller",
-          "FoodName": "Dal",
-          "Cost": "50",
-          "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
-        },
-        {
-          "HotelName": "Time Traveller",
-          "FoodName": "Dal",
-          "Cost": "50",
-          "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
-        },
-        {
-          "HotelName": "Nagarjuna",
-          "FoodName": "Butter",
-          "Cost": "35",
-          "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
-        },
-        {
-          "HotelName": "Nagarjuna",
-          "FoodName": "Butter",
-          "Cost": "35",
-          "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
-        },
-        {
-          "HotelName": "Nagarjuna",
-          "FoodName": "Butter",
-          "Cost": "35",
-          "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
-        },
-        {
           "HotelName": "The Fatty bao",
           "FoodName": "Rice",
           "Cost": "40",
-          "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
+          "FoodImage": "https://cdn.loveandlemons.com/wp-content/uploads/2020/03/how-to-cook-rice.jpg"
         },
         {
-          "HotelName": "The Fatty bao",
-          "FoodName": "Rice",
-          "Cost": "40",
-          "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
-        },
-        {
-          "HotelName": "Nagarjuna",
-          "FoodName": "Butter",
-          "Cost": "35",
-          "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
-        },
-        {
-          "HotelName": "Nagarjuna",
-          "FoodName": "Butter",
-          "Cost": "35",
-          "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
+          "HotelName": "Sarvana Bhavan",
+          "FoodName": "Non veg Burger",
+          "Cost": "100",
+          "FoodImage": "https://www.chicken.ca/wp-content/uploads/2020/09/Moist-Chicken-Burgers.jpg"
         }
       ]
     }
@@ -141,7 +88,7 @@
       "NameOfRestaurant": "Time Traveller",
       "FoodItem": "Dal",
       "Cost": "50",
-      "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
+      "FoodImage": "https://www.cookwithmanali.com/wp-content/uploads/2019/07/Dal-Fry-Recipe-500x500.jpg"
     },
     {
       "id": 2,
@@ -155,21 +102,21 @@
       "NameOfRestaurant": "Truffles",
       "FoodItem": "Bondas",
       "Cost": "70",
-      "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
+      "FoodImage": "https://www.vegrecipesofindia.com/wp-content/uploads/2013/07/mysore-bonda-recipe-1.jpg"
     },
     {
       "id": 4,
       "NameOfRestaurant": "The Fatty bao",
       "FoodItem": "Rice",
       "Cost": "40",
-      "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
+      "FoodImage": "https://cdn.loveandlemons.com/wp-content/uploads/2020/03/how-to-cook-rice.jpg"
     },
     {
       "id": 5,
       "NameOfRestaurant": "Nagarjuna",
-      "FoodItem": "Butter",
+      "FoodItem": "Butter Naan",
       "Cost": "35",
-      "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
+      "FoodImage": "https://www.cookwithmanali.com/wp-content/uploads/2014/11/Soft-Homemade-Naan-500x500.jpg"
     }
   ],
   "hyderabad": [
@@ -177,31 +124,36 @@
       "id": 1,
       "NameOfRestaurant": "Mekong",
       "FoodItem": "Idli",
-      "Cost": "60"
+      "Cost": "60",
+      "FoodImage": "https://www.vegrecipesofindia.com/wp-content/uploads/2013/03/idli-with-idli-rava-recipe-5.jpg"
     },
     {
       "id": 2,
       "NameOfRestaurant": "Bawarchi",
       "FoodItem": "Sambar",
-      "Cost": "45"
+      "Cost": "45",
+      "FoodImage": "https://www.whiskaffair.com/wp-content/uploads/2020/05/Sambar-2-3.jpg"
     },
     {
       "id": 3,
       "NameOfRestaurant": "Cafe Bahar and Restaurant",
       "FoodItem": "Masala Dosa",
-      "Cost": "65"
+      "Cost": "65",
+      "FoodImage": "https://www.kannammacooks.com/wp-content/uploads/Masala-Dosa-Bengaluru-style-recipe-26.jpg"
     },
     {
       "id": 4,
       "NameOfRestaurant": "Chutneys",
       "FoodItem": "Onion Masala Dosa",
-      "Cost": "78"
+      "Cost": "78",
+      "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
     },
     {
       "id": 5,
       "NameOfRestaurant": "Bikanerwala",
       "FoodItem": "Onion Dosa",
-      "Cost": "60"
+      "Cost": "60",
+      "FoodImage": "https://honestcooking.com/wp-content/uploads/2017/07/Gluten-free-Indian-crepes-4-4-1.jpg"
     }
   ],
   "vijayawada": [
@@ -209,31 +161,36 @@
       "id": 1,
       "NameOfRestaurant": "Sweet Magic",
       "FoodItem": "Bondas",
-      "Cost": "45"
+      "Cost": "45",
+      "FoodImage": "https://i2.wp.com/www.curryandvanilla.com/wp-content/uploads/2016/07/Cheesy-bread-bonda1-1.jpg?resize=585%2C585&ssl=1"
     },
     {
       "id": 2,
       "NameOfRestaurant": "Minerva Grand Restaurant",
       "FoodItem": "Mysore Bajji",
-      "Cost": "50"
+      "Cost": "50",
+      "FoodImage": "https://www.tarladalal.com/members/9306/procstepimgs/mysore-bonda-17-5-188725.jpg"
     },
     {
       "id": 3,
       "NameOfRestaurant": "McDonalds",
       "FoodItem": "Veg Burger",
-      "Cost": "80"
+      "Cost": "80",
+      "FoodImage": "https://www.kitchensanctuary.com/wp-content/uploads/2019/05/Cheesy-Veggie-Burger-Square-1200.jpg"
     },
     {
       "id": 4,
       "NameOfRestaurant": "CrossRoads Restaurant",
       "FoodItem": "Veg onion Burger",
-      "Cost": "90"
+      "Cost": "90",
+      "FoodImage": "https://www.thespruceeats.com/thmb/qpl1Ir8XB7Q7YJlCFSydkx1BfPc=/2696x2696/smart/filters:no_upscale()/juicy-baked-burgers-3052097-hero-01-c9e134a9f357424c8bd6fc67149ad4c0.jpg"
     },
     {
       "id": 5,
       "NameOfRestaurant": "Southern Spice",
       "FoodItem": "Non veg Burger",
-      "Cost": "100"
+      "Cost": "100",
+      "FoodImage": "https://www.chicken.ca/wp-content/uploads/2020/09/Moist-Chicken-Burgers.jpg"
     }
   ],
   "chennai": [
@@ -241,31 +198,36 @@
       "id": 1,
       "NameOfRestaurant": "Benjarang",
       "FoodItem": "Rice and Dal",
-      "Cost": "100"
+      "Cost": "100",
+      "FoodImage": "https://www.cookwithmanali.com/wp-content/uploads/2019/03/Rice-and-Dal-Instant-Pot-500x500.jpg"
     },
     {
       "id": 2,
       "NameOfRestaurant": "Sangeetha Veg Restaurant",
       "FoodItem": "Rice and curd",
-      "Cost": "120"
+      "Cost": "120",
+      "FoodImage": "https://www.vegrecipesofindia.com/wp-content/uploads/2016/07/curd-rice-2.jpg"
     },
     {
       "id": 3,
       "NameOfRestaurant": "Murugans Idli Shop",
       "FoodItem": "Idli karam ghee",
-      "Cost": "70"
+      "Cost": "70",
+      "FoodImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD8k24UYK4H4NuDc0ROADvhHW9kK1prtWM4A&usqp=CAU"
     },
     {
       "id": 4,
       "NameOfRestaurant": "Tuscana Pizzeria",
       "FoodItem": "Ghee karam dosa",
-      "Cost": "80"
+      "Cost": "80",
+      "FoodImage": "https://res.cloudinary.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/eez28wzbprnrzb5nrgxc"
     },
     {
       "id": 5,
       "NameOfRestaurant": "Sarvana Bhavan",
       "FoodItem": "Non veg Burger",
-      "Cost": "100"
+      "Cost": "100",
+      "FoodImage": "https://www.chicken.ca/wp-content/uploads/2020/09/Moist-Chicken-Burgers.jpg"
     }
   ]
 }

@@ -3,7 +3,7 @@ import Search from './Search';
 import axios from 'axios'
 import Card from './Card';
 import FavouritesCard from './FavouritesCard';
-
+import { MDBIcon, MDBSideNavCat, MDBSideNavNav, MDBSideNav, MDBSideNavLink, MDBContainer, MDBRow, MDBBtn } from 'mdbreact';
 import background from '../img/food.jpg';
 
 export default function Dashboard(props){
@@ -21,9 +21,11 @@ export default function Dashboard(props){
     const [favourites,setFavourites] = useState([]);
     
     const getLocation = (location) => {
+        
         setLocationDash(location)
     }
 
+    
     const newData = {
         username,
         password,
@@ -90,19 +92,32 @@ export default function Dashboard(props){
             console.log(id);
             setCityname(response.data.cityname);
             setEmail(response.data.email);
-            setFavourites([...response.data.favourites,favouritesfunc])
+            // setFavourites([...response.data.favourites,favouritesfunc])
+            // setCheckdash(checkdash+1);
+
+            let c = 0;
+            for (let j = 0;j<response.data.favourites.length;j++)
+            {
+                if(response.data.favourites[j].HotelName === favouritesfunc.HotelName)
+                {
+                    if(response.data.favourites[j].FoodName === favouritesfunc.FoodName)
+                    {
+                        if(response.data.favourites[j].Cost === favouritesfunc.Cost)
+                        {
+                            console.log("i am batman")
+                            setFavourites(response.data.favourites);
+                            c = c + 1;
+                        }
+                    }
+                }
+            }
+            if(c == 0)
+            {
+                setFavourites([...response.data.favourites,favouritesfunc])
+            }
+
             setCheckdash(checkdash+1);
         })
-
-        
-        
-        
-
-
-
-
-
-
 
     }
     
@@ -114,12 +129,13 @@ export default function Dashboard(props){
         <div style={{ 
             backgroundImage: `url(${background})` 
           }}>
+              
             <Search username = {username} locationchildfunc = {getLocation}
             hoteldatachildfunc = {getHoteldata}/>
             <br/>
             <div className = 'container'>
             <div className="row">
-            
+            {/* <div className="col-md-8"> */}
                 
                 {
                     hotelData.map((hotel) => 
@@ -134,7 +150,7 @@ export default function Dashboard(props){
                     FoodImage={hotel.FoodImage}
                     />)
                 } 
-            
+            {/* </div> */}
             
             </div>
             <br/><br/>
@@ -155,6 +171,7 @@ export default function Dashboard(props){
             </div>
             
             </div>
+            
             <h1  align="center"><font color="white">Hello {props.match.params.username} Welcome</font></h1>
         </div>
     )
