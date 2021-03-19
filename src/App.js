@@ -13,7 +13,7 @@ import Dashboard from './components/Dashboard'
 import ErrorLogin from './components/ErrorLogin';
 import Header from "./components/Header";
 import Footer from './components/Footer';
-
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <Router>

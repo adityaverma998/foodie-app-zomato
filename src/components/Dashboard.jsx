@@ -11,7 +11,7 @@ export default function Dashboard(props){
     const [locationdash,setLocationDash]=useState('');
     const [hotelData,setHotelData] = useState([]);
     const [userid,setUserid] = useState(0);
-    
+
     const [password,setPassword] = useState('');
     const [name,setName] = useState('');
     const [image,setImage] = useState('');
@@ -116,8 +116,11 @@ export default function Dashboard(props){
           }}>
             <Search username = {username} locationchildfunc = {getLocation}
             hoteldatachildfunc = {getHoteldata}/>
+            <br/>
             <div className = 'container'>
             <div className="row">
+            
+                
                 {
                     hotelData.map((hotel) => 
                     <Card
@@ -128,20 +131,29 @@ export default function Dashboard(props){
                     NameOfRestaurant = {hotel.NameOfRestaurant}
                     FoodItem = {hotel.FoodItem}
                     Cost = {hotel.Cost}
+                    FoodImage={hotel.FoodImage}
                     />)
                 } 
+            
+            
             </div>
-            <div className = "cl-md-6 mt-4">
+            <br/><br/>
+            <div className="row">
+            
                 {
+                    
                     favourites.map((favourite) => 
+                    
                         <FavouritesCard
                         key = {favourite.id}
                         NameOfRestaurant = {favourite.HotelName}
                         FoodItem = {favourite.FoodName}
                         Cost = {favourite.Cost}
+                        FoodImage={favourite.FoodImage}
                         />)
                 }
-            </div>  
+            </div>
+            
             </div>
             <h1  align="center"><font color="white">Hello {props.match.params.username} Welcome</font></h1>
         </div>

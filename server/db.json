@@ -8,63 +8,7 @@
       "id": 1,
       "cityname": "hyderabad",
       "email": "suryathejareddy@gmail.com",
-      "favourites": [
-        {
-          "HotelName": "",
-          "FoodName": "",
-          "Cost": ""
-        },
-        {
-          "HotelName": "Mekong",
-          "FoodName": "Idli",
-          "Cost": "60"
-        },
-        {
-          "HotelName": "Bawarchi",
-          "FoodName": "Sambar",
-          "Cost": "45"
-        },
-        {
-          "HotelName": "",
-          "FoodName": "",
-          "Cost": ""
-        },
-        {
-          "HotelName": "Time Traveller",
-          "FoodName": "Dal",
-          "Cost": "50"
-        },
-        {
-          "HotelName": "Lush",
-          "FoodName": "Dosas",
-          "Cost": "60"
-        },
-        {
-          "HotelName": "Truffles",
-          "FoodName": "Bondas",
-          "Cost": "70"
-        },
-        {
-          "HotelName": "",
-          "FoodName": "",
-          "Cost": ""
-        },
-        {
-          "HotelName": "Time Traveller",
-          "FoodName": "Dal",
-          "Cost": "50"
-        },
-        {
-          "HotelName": "",
-          "FoodName": "",
-          "Cost": ""
-        },
-        {
-          "HotelName": "Mekong",
-          "FoodName": "Idli",
-          "Cost": "60"
-        }
-      ]
+      "favourites": []
     },
     {
       "username": "ravi",
@@ -74,38 +18,7 @@
       "id": 2,
       "cityname": "bangalore",
       "email": "ravithejareddy",
-      "favourites": [
-        {
-          "HotelName": "Mekong",
-          "FoodName": "Idli",
-          "Cost": "60"
-        },
-        {
-          "HotelName": "Bikanerwala",
-          "FoodName": "Onion Dosa",
-          "Cost": "60"
-        },
-        {
-          "HotelName": "Cafe Bahar and Restaurant",
-          "FoodName": "Masala Dosa",
-          "Cost": "65"
-        },
-        {
-          "HotelName": "Tuscana Pizzeria",
-          "FoodName": "Ghee karam dosa",
-          "Cost": "80"
-        },
-        {
-          "HotelName": "Sweet Magic",
-          "FoodName": "Bondas",
-          "Cost": "45"
-        },
-        {
-          "HotelName": "CrossRoads Restaurant",
-          "FoodName": "Veg onion Burger",
-          "Cost": "90"
-        }
-      ]
+      "favourites": []
     },
     {
       "username": "abcd",
@@ -114,73 +27,7 @@
       "id": 3,
       "cityname": "wkj",
       "email": "kl",
-      "favourites": [
-        {
-          "HotelName": "Time Traveller",
-          "FoodName": "Dal",
-          "Cost": "50"
-        },
-        {
-          "HotelName": "The Fatty bao",
-          "FoodName": "Rice",
-          "Cost": "40"
-        },
-        {
-          "HotelName": "Mekong",
-          "FoodName": "Idli",
-          "Cost": "60"
-        },
-        {
-          "HotelName": "Mekong",
-          "FoodName": "Idli",
-          "Cost": "60"
-        },
-        {
-          "HotelName": "Mekong",
-          "FoodName": "Idli",
-          "Cost": "60"
-        },
-        {
-          "HotelName": "Mekong",
-          "FoodName": "Idli",
-          "Cost": "60"
-        },
-        {
-          "HotelName": "Chutneys",
-          "FoodName": "Onion Masala Dosa",
-          "Cost": "78"
-        },
-        {
-          "HotelName": "Mekong",
-          "FoodName": "Idli",
-          "Cost": "60"
-        },
-        {
-          "HotelName": "Mekong",
-          "FoodName": "Idli",
-          "Cost": "60"
-        },
-        {
-          "HotelName": "Bawarchi",
-          "FoodName": "Sambar",
-          "Cost": "45"
-        },
-        {
-          "HotelName": "Bikanerwala",
-          "FoodName": "Onion Dosa",
-          "Cost": "60"
-        },
-        {
-          "HotelName": "Mekong",
-          "FoodName": "Idli",
-          "Cost": "60"
-        },
-        {
-          "HotelName": "Chutneys",
-          "FoodName": "Onion Masala Dosa",
-          "Cost": "78"
-        }
-      ]
+      "favourites": []
     },
     {
       "username": "adi",
@@ -190,69 +37,7 @@
       "id": 4,
       "cityname": "HAZARIBAGH",
       "email": "adityaraven@gmail.com",
-      "favourites": [
-        {
-          "HotelName": "Mekong",
-          "FoodName": "Idli",
-          "Cost": "60"
-        },
-        {
-          "HotelName": "Bikanerwala",
-          "FoodName": "Onion Dosa",
-          "Cost": "60"
-        },
-        {
-          "HotelName": "Bikanerwala",
-          "FoodName": "Onion Dosa",
-          "Cost": "60"
-        },
-        {
-          "HotelName": "Bikanerwala",
-          "FoodName": "Onion Dosa",
-          "Cost": "60"
-        },
-        {
-          "HotelName": "Nagarjuna",
-          "FoodName": "Butter",
-          "Cost": "35"
-        },
-        {
-          "HotelName": "Truffles",
-          "FoodName": "Bondas",
-          "Cost": "70"
-        },
-        {
-          "HotelName": "Chutneys",
-          "FoodName": "Onion Masala Dosa",
-          "Cost": "78"
-        },
-        {
-          "HotelName": "Chutneys",
-          "FoodName": "Onion Masala Dosa",
-          "Cost": "78"
-        },
-        {
-          "HotelName": "Chutneys",
-          "FoodName": "Onion Masala Dosa",
-          "Cost": "78",
-          "image": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
-        },
-        {
-          "HotelName": "The Fatty bao",
-          "FoodName": "Rice",
-          "Cost": "40"
-        },
-        {
-          "HotelName": "Chutneys",
-          "FoodName": "Onion Masala Dosa",
-          "Cost": "78"
-        },
-        {
-          "HotelName": "Mekong",
-          "FoodName": "Idli",
-          "Cost": "60"
-        }
-      ]
+      "favourites": []
     },
     {
       "username": "himan",
@@ -264,24 +49,88 @@
       "email": "himan@gmail.com",
       "favourites": [
         {
-          "HotelName": "Bawarchi",
-          "FoodName": "Sambar",
-          "Cost": "45"
+          "HotelName": "Time Traveller",
+          "FoodName": "Dal",
+          "Cost": "50",
+          "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
         },
         {
-          "HotelName": "Cafe Bahar and Restaurant",
-          "FoodName": "Masala Dosa",
-          "Cost": "65"
+          "HotelName": "Time Traveller",
+          "FoodName": "Dal",
+          "Cost": "50",
+          "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
         },
         {
-          "HotelName": "Bikanerwala",
-          "FoodName": "Onion Dosa",
-          "Cost": "60"
+          "HotelName": "Time Traveller",
+          "FoodName": "Dal",
+          "Cost": "50",
+          "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
         },
         {
           "HotelName": "Lush",
           "FoodName": "Dosas",
-          "Cost": "60"
+          "Cost": "60",
+          "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
+        },
+        {
+          "HotelName": "Truffles",
+          "FoodName": "Bondas",
+          "Cost": "70",
+          "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
+        },
+        {
+          "HotelName": "Time Traveller",
+          "FoodName": "Dal",
+          "Cost": "50",
+          "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
+        },
+        {
+          "HotelName": "Time Traveller",
+          "FoodName": "Dal",
+          "Cost": "50",
+          "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
+        },
+        {
+          "HotelName": "Nagarjuna",
+          "FoodName": "Butter",
+          "Cost": "35",
+          "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
+        },
+        {
+          "HotelName": "Nagarjuna",
+          "FoodName": "Butter",
+          "Cost": "35",
+          "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
+        },
+        {
+          "HotelName": "Nagarjuna",
+          "FoodName": "Butter",
+          "Cost": "35",
+          "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
+        },
+        {
+          "HotelName": "The Fatty bao",
+          "FoodName": "Rice",
+          "Cost": "40",
+          "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
+        },
+        {
+          "HotelName": "The Fatty bao",
+          "FoodName": "Rice",
+          "Cost": "40",
+          "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
+        },
+        {
+          "HotelName": "Nagarjuna",
+          "FoodName": "Butter",
+          "Cost": "35",
+          "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
+        },
+        {
+          "HotelName": "Nagarjuna",
+          "FoodName": "Butter",
+          "Cost": "35",
+          "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
         }
       ]
     }
@@ -291,32 +140,36 @@
       "id": 1,
       "NameOfRestaurant": "Time Traveller",
       "FoodItem": "Dal",
-      "Cost": "50"
+      "Cost": "50",
+      "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
     },
     {
       "id": 2,
       "NameOfRestaurant": "Lush",
       "FoodItem": "Dosas",
       "Cost": "60",
-      "image": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
+      "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
     },
     {
       "id": 3,
       "NameOfRestaurant": "Truffles",
       "FoodItem": "Bondas",
-      "Cost": "70"
+      "Cost": "70",
+      "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
     },
     {
       "id": 4,
       "NameOfRestaurant": "The Fatty bao",
       "FoodItem": "Rice",
-      "Cost": "40"
+      "Cost": "40",
+      "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
     },
     {
       "id": 5,
       "NameOfRestaurant": "Nagarjuna",
       "FoodItem": "Butter",
-      "Cost": "35"
+      "Cost": "35",
+      "FoodImage": "https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg"
     }
   ],
   "hyderabad": [

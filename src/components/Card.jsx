@@ -13,12 +13,13 @@ export default function Card(props){
     const [FoodName,setFoodName] = useState('');
     const [Cost,setCost] = useState('');
     const [check,setCheck] = useState(0);
-    const [image,setImage] = useState('')
+    const [FoodImage,setFoodImage] = useState('')
 
     const favouriteobject = {
         HotelName,
         FoodName,
-        Cost,image
+        Cost,
+        FoodImage
     }
 
     useEffect ( () => {
@@ -40,7 +41,7 @@ export default function Card(props){
         setHotelName(props.NameOfRestaurant);
         setFoodName(props.FoodItem);
         setCost(props.Cost)
-        setImage(props.image)
+        setFoodImage(props.FoodImage)
         // getting user data;
         
         console.log("in add to favourites")
@@ -75,20 +76,24 @@ export default function Card(props){
 
     }
     return (
-        <div className="card my-5"  style={{width : '17rem'}}>
-             <div className="card">
-            <p>{props.NameOfRestaurant}</p>
-            <p>{props.FoodItem}</p>
-            <p>{props.Cost}</p>
-            <p>{props.image}</p>
-            <div>
-                <button type="submit" className="btn btn-primary"
+        <div>
+             <div className="card bg-dark border-danger text-white" style={{width : '17rem'}}>
+             <img class="card-img-top" src={props.FoodImage} alt="Card image cap"/>
+   <div class="card-body">
+       <p>{props.NameOfRestaurant}</p>
+             <p class="card-title">{props.FoodItem}</p>
+             <p>Cost Rs.{props.Cost}</p>
+     <div>
+                <button type="submit" className="btn btn-danger"
                 onClick={addToFavourites}
                 >Add To Favourites Section</button>
             </div>
-        </div>
-        <div ><br/></div>
-        </div>
+  </div>
+    </div><br/></div>
+        
+        
+
+    
     )
 
 }
